@@ -1,0 +1,275 @@
+
+
+@media only screen and (max-width: 1152px) {
+
+    :root {
+        --biggest-font-size: 3.5rem;
+        --h2-font-size: 2.5rem;
+        --normal-font-size: 1.5rem;
+    }
+
+    .home-container {
+        gap: 2rem;
+    }
+
+    .home-content-container {
+        width: 70%;
+        padding-right: 2rem;
+    }
+
+    .contact-us-btn {
+        padding: 0.8rem 3rem;
+    }
+
+    .contact-us-container img {
+    transform: scale(1.5);
+    }
+    
+}
+
+@media only screen and (max-width: 994px) {
+
+    :root {
+        --biggest-font-size: 3.2rem;
+        --h2-font-size: 2.3rem;
+        --h3-font-size: 1.5rem;
+        --normal-font-size: 1.3rem;
+    }
+
+    .services-card {
+        padding: 2rem;
+    }
+
+    .contact-us-btn {
+        padding: 0.8rem 2rem;
+        border-width: 3px;
+    }
+
+    .contact-us-container img {
+        transform: scale(1.2);
+    }
+
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .nav-menu {
+        display: none;
+    }
+
+    .lets-talk-btn {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .dropdown-list-container {
+        display: flex;
+    }
+
+    .dropdown-btn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    :root {
+        --certificate-font-size: 4rem;
+        --certificate-font-size-small: 3.5rem;
+        --biggest-font-size: 3.2rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1.2rem;
+        --small-font-size: 1rem;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        padding-top: 6rem;
+    }
+
+    .home-content-container {
+        width: 100%;
+    }
+
+    .home-img {
+        transform: scale(1);
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills-container { 
+        flex-wrap: wrap;
+    }
+
+    .skill-item {
+        width: 45%;
+    }
+
+    .footer-container  {
+        height: 40vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contact-us-container {
+        gap: 5rem;
+    }
+
+    .contact-us-container img {
+        transform: scale(1);
+    }
+
+    .footer-list ul li {
+        font-size: var(--h3-font-size);
+    }
+
+    .footer-img-container img{
+        transform: scale(0.8);
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    .skills-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .skill-item {
+        gap: 0.5rem;
+        width: fit-content;
+        justify-content: space-between;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        height: fit-content;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .footer-hr {
+        width: 80%;
+        height: 5px;
+    }
+
+    .contact-us-container {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .social-media-container {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .footer-img-container {
+        flex-direction: row;
+        gap: 12vw;
+    }
+
+    .footer-img-container img {
+        transform: scale(1);
+    }
+
+    .footer-list ul {
+        flex-direction: row;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-list ul li {
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 522px) { 
+
+    :root {
+        --certificate-font-size: 3rem;
+        --certificate-font-size-small: 2.8rem;
+        --biggest-font-size: 3rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1rem;
+        --small-font-size: 1rem;
+    }
+
+    .section-container {
+        padding: 2rem;
+    }
+
+    .skill-container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .nav {
+        padding: 0 1.5rem;
+    }
+
+    .home-container {
+        padding-top: 7rem;
+    }
+
+    .toggle-btn i {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) { 
+
+    .skill-item {
+        gap: 1rem;
+    }
+
+    .list-container {
+        gap: 0.5rem;
+    }
+
+    .footer-list ul li { 
+        font-size: var(--h3-font-size);
+        width: 30%;
+    }
+
+    .footer-img-container {
+        gap: 13vw;
+    }
+
+    .footer-img-container img {
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 336px) {
+    :root {
+        --certificate-font-size: 2.3rem;
+        --certificate-font-size-small: 2.1rem;
+        --biggest-font-size: 2.5rem;
+        --h2-font-size: 1.4rem;
+        --small-font-size: 1rem;
+    }
+
+    .skill-item {
+        gap: 0.7rem;
+    }
+}
